@@ -1,0 +1,99 @@
+.section {
+  max-width: 121.5rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.headline {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.subHeadline {
+  margin-bottom: 6rem;
+}
+
+.cards {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid var(--color-brand-3);
+  border-radius: 0.9rem;
+  padding: 0 2rem 2rem;
+}
+
+.package {
+  transform: scale(2);
+}
+
+.label {
+  margin-top: 6rem;
+}
+
+.productName {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 4rem;
+}
+
+.options {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cartOption {
+  color: var(--color-brand-1);
+  font-weight: 600;
+}
+
+.like {
+  height: 3rem;
+  width: 3rem;
+}
+
+.footerCard {
+  background-color: #ecd6d0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 0.9rem;
+  margin-top: 2rem;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 2rem;
+  color: #fff;
+  background: var(--color-brand-2);
+  align-self: flex-start;
+}
+
+.cardText {
+  font-size: 3rem;
+  color: var(--color-brand-2);
+  font-weight: 600;
+}

@@ -1,0 +1,87 @@
+.section {
+  max-width: 121.5rem;
+  margin: 2rem auto;
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.contentSide {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.headline {
+  font-size: 12rem;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #996259, #441d0f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subHeadline {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.description {
+  font-size: 1.6rem;
+}
+
+.btns {
+  display: flex;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 2rem;
+}
+
+.exploreBtn {
+  color: #fff;
+  background: var(--color-brand-2);
+}
+
+.authBtn {
+  color: var(--color-brand-1);
+  border: 2px solid var(--color-brand-3);
+}
+
+.coffee {
+  background-color: #ecd6d0;
+  border-radius: 0 7rem 7rem 0;
+}
+
+.stats {
+  display: flex;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid var(--color-brand-3);
+  padding: 0 2rem;
+}
+
+.row:last-child {
+  border: none;
+}
+
+.title {
+  /* font-size: 1.6rem; */
+}
+
+.info {
+  font-size: 3rem;
+  font-weight: 700;
+}

@@ -1,0 +1,90 @@
+.section {
+  max-width: 121.5rem;
+  margin: 8rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.testimonial {
+  background-color: #eee7e4;
+  padding: 1.4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 10rem 0 0 10rem;
+}
+
+.pictureWrapper {
+  width: 9rem;
+  height: 9rem;
+  position: relative;
+  border: 3px solid var(--color-brand-1);
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  border-radius: 5rem;
+  overflow: hidden;
+}
+
+.profilePic {
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
+
+.profileName {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.contentSide {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.headline {
+  font-size: 2.8rem;
+}
+
+.description {
+  font-size: 1.8rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 1.4rem;
+  row-gap: 1.4rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.featureIcon {
+  height: 8rem;
+  width: 8rem;
+}
+
+.featureIconSpec {
+  height: 11rem;
+  width: 11rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
