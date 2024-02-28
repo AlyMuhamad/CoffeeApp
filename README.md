@@ -1,6 +1,6 @@
 # CoffeeApp
 
-**[CoffeeApp](https://restaurant-iota-two.vercel.app/)** is a web app for people passionate about coffee.
+**[CoffeeApp](https://coffeeapp-ochre.vercel.app/)** is a web app for people passionate about coffee.
 
 ## quick notes about the project
 
